@@ -1,11 +1,11 @@
 from selenium import webdriver
 import time
 
-urunURL = 'https://www.robotistan.com/makeblock-mbot-bluetooth-kiti-v11-mavi'
-adetYaziKutusu = 'Adet2754'
+urunURL = 'https://www.robotistan.com/arduino-pro-mini-328-3v8mhz-headerli'
+adetYaziKutusu = 'Adet473'
 
-urunURL = 'https://www.robotistan.com/arduino-uno-r3-klon-usb-kablo-hediyeli-usb-chip-ch340'
-adetYaziKutusu = 'Adet2729'
+#urunURL = 'https://www.robotistan.com/arduino-uno-r3-klon-usb-kablo-hediyeli-usb-chip-ch340'
+#adetYaziKutusu = 'Adet2729'
 
 driver = webdriver.Chrome('chromedriver.exe')  # Optional argument, if not specified will search path.
 driver.set_window_position(0,0)
