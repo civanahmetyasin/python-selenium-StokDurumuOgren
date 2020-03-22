@@ -11,6 +11,12 @@ Robotistan sitesindeki ürünlerin stok durumlarini takip etmek için kullanıla
 |Bu Yazılımın Çalışması İçin |https://chromedriver.storage.googleapis.com/index.html?path=79.0.3945.36/|
 |Yararlandığım Eğitim|https://www.youtube.com/watch?v=V69wc4Tmwjc&list=PLUY1lsOTtPeJNBuSweXS9pcSKbP4mr32S|
 
+## Gerekli Bağımlıkıları Yüklenmesi
+
+```
+pip install selenium
+```
+
 ## Kullanılan Araçlar
 
  - Python 2.7.17
