@@ -1,8 +1,8 @@
 from selenium import webdriver
 import time
 
+driver = webdriver.Chrome('chromedriver.exe')  # Optional argument, if not specified will search path.
 while True:
-    driver = webdriver.Chrome('chromedriver.exe')  # Optional argument, if not specified will search path.
     driver.set_window_position(0,0)
     driver.set_window_size(800,800)
     driver.get('https://www.robotistan.com/makeblock-mbot-bluetooth-kiti-v11-mavi')
@@ -18,6 +18,8 @@ while True:
     print( urunAdi + " : " + mevcutStok.split(': ')[1])
     time.sleep(10)
 
+driver.close()
+
 #driver.get('https://www.robotistan.com/makeblock-mbot-ranger-bluetooth')
 #urunAdi = driver.find_element_by_id('productName').text
 #time.sleep(2)
@@ -30,4 +32,4 @@ while True:
 #
 #print( urunAdi + " : " + mevcutStok.split(': ')[1])
 #
-#driver.close()
+
