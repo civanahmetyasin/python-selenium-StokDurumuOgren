@@ -13,6 +13,8 @@ Robotistan sitesindeki ürünlerin stok durumlarini takip etmek için kullanıla
 
 ## Gerekli Bağımlıkıları Yüklenmesi
 
+Selenium kurulması
+
 ```
 pip install selenium
 ```
