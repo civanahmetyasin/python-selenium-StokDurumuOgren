@@ -29,5 +29,28 @@ pip install selenium
      Özellikle ChromeDriver önemli sadece bu sürüm ile çalıştı en yeni versiyonu çalışmıyor.
  - Google Chrome versiyonu 80.0.3987.149 (Resmi Derleme) (64 bit) Sürümü
 
- ## Ürün Değiştimeke İçin
+ ## Kulanımı
+
+  - İlk adım olarak ürün linki giriliyor. Link Chrome üzerinden kopyalanarak alınır.
+  - Adet yazı kutu üzerinde sağ tık **incele** diyerek `id="AdetXXXX"` yazili alan bulunur ve bu alan içerisindeki tırnak işaretlerinde bulunan yazı kopyalanarak komut ekranına yapıştırılır.
+  - Daha sonra ornekleme zamanı için dakika cinsinden değer girilir.
+
+   ```
+   Urun Linki Giriniz
+   https://www.robotistan.com/arduino-uno-r3-klon-usb-kablo-hediyeli-usb-chip-ch340
+
+   Yazi Kutusu ID Giriziniz - Adet2729 gibi
+   Adet2729
+
+   Dakika Cinsinden Ornekleme Suresi Girin
+   1
+
+   ```
  
+
+
+
+
+
+
+
