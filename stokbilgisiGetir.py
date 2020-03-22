@@ -3,8 +3,6 @@ import time
 import datetime
 
 tarihSaat = datetime.datetime.now()
-ORNEKLEME_SURESI_SANIYE = 60 * 10
-
 
 
 print("Urun Linki Giriniz")
@@ -14,6 +12,10 @@ print(urunURL)
 print("Yazi Kutusu ID Giriziniz - Adet2729 gibi")
 adetYaziKutusu = raw_input()
 print(adetYaziKutusu)
+
+print("Dakika Cinsinden Ornekleme Suresi Girin")
+ORNEKLEME_SURESI_SANIYE = 60* int (raw_input())
+print(ORNEKLEME_SURESI_SANIYE + " Saniyede bir veri cekecek")
 
 
 driver = webdriver.Chrome('chromedriver.exe')  # Optional argument, if not specified will search path.
