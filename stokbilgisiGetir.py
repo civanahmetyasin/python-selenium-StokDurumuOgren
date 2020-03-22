@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome('C:/KomutSatiriProg/chromedriver.exe')  # Optional argument, if not specified will search path.
+driver = webdriver.Chrome('chromedriver.exe')  # Optional argument, if not specified will search path.
 driver.set_window_position(0,0)
 driver.set_window_size(800,800)
 driver.get('https://www.robotistan.com/makeblock-mbot-bluetooth-kiti-v11-mavi')
