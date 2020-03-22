@@ -12,7 +12,7 @@ print(adetYaziKutusu)
 
 print("Dakika Cinsinden Ornekleme Suresi Girin")
 ORNEKLEME_SURESI_SANIYE = 60* int (raw_input())
-print(ORNEKLEME_SURESI_SANIYE + " Saniyede bir veri cekecek")
+print(ORNEKLEME_SURESI_SANIYE)
 
 
 driver = webdriver.Chrome('chromedriver.exe')  # Optional argument, if not specified will search path.
