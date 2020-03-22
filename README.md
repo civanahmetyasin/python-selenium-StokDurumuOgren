@@ -4,7 +4,7 @@ Robotistan sitesindeki ürünlerin stok durumlarini takip etmek için kullanıla
 
 ## Faydalı Linkler
 
-|||
+| Başlık | Site Linki|
 |---|---|
 |Selenium Resmi Sitesi |https://selenium-python.readthedocs.io/|
 |Selenium için Chrome Driver |https://sites.google.com/a/chromium.org/chromedriver/downloads|
