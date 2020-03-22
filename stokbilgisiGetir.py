@@ -2,9 +2,6 @@ from selenium import webdriver
 import time
 import datetime
 
-tarihSaat = datetime.datetime.now()
-
-
 print("Urun Linki Giriniz")
 urunURL = raw_input()
 print(urunURL)
@@ -23,6 +20,7 @@ driver.set_window_position(0,0)
 driver.set_window_size(800,800)
 
 while True:
+    tarihSaat = datetime.datetime.now()
     logDosyasi = open("stokBilgileri.txt","a")
     driver.get(urunURL)
     urunAdi = driver.find_element_by_id('productName').text
