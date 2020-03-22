@@ -26,17 +26,3 @@ while True:
     time.sleep(10)
 
 driver.close()
-
-#driver.get('https://www.robotistan.com/makeblock-mbot-ranger-bluetooth')
-#urunAdi = driver.find_element_by_id('productName').text
-#time.sleep(2)
-#driver.find_element_by_name('Adet5798').send_keys('100000')
-#time.sleep(2)
-#driver.find_element_by_xpath('//*[@id="addCartBtn"]/span').click()
-#
-#time.sleep(2)
-#mevcutStok = driver.find_element_by_id('myPopup3').text
-#
-#print( urunAdi + " : " + mevcutStok.split(': ')[1])
-#
-
