@@ -3,7 +3,7 @@ import time
 import datetime
 
 tarihSaat = datetime.datetime.now()
-ORNEKLEME_SURESI_SANIYE = 10
+ORNEKLEME_SURESI_SANIYE = 60 * 10
 
 
 
