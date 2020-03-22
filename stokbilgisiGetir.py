@@ -1,8 +1,14 @@
 from selenium import webdriver
 import time
 
-urunURL = 'https://www.robotistan.com/arduino-pro-mini-328-3v8mhz-headerli'
-adetYaziKutusu = 'Adet473'
+print("Urun Linki Giriniz")
+
+urunURL = raw_input()
+print(urunURL)
+
+print("Yazi Kutusu ID Giriziniz - Adet2729 gibi")
+adetYaziKutusu = raw_input()
+print(adetYaziKutusu)
 
 #urunURL = 'https://www.robotistan.com/arduino-uno-r3-klon-usb-kablo-hediyeli-usb-chip-ch340'
 #adetYaziKutusu = 'Adet2729'
